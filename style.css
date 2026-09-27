@@ -1,0 +1,142 @@
+window{
+    background-color: #111318;
+    color: #e6e6e6;
+}
+.main-container{
+    background-color: #111318;
+}
+.header{
+    background-color: #181b21;
+    border-radius: 12px;
+    padding: 10px;
+}
+.sidebar{
+    background-color: #181b21;
+    border-radius: 12px;
+    padding: 10px;
+    min-width: 180px;
+    border: none;
+    box-shadow: none;
+}
+.conversation{
+    background-color: #111318;
+    border-radius: 12px;
+}
+.prompt-bar{
+    background-color: #181b21;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+button{
+    background-image: none;
+    background-color: #242831;
+    color: #e6e6e6;
+    border-radius: 8px;
+    border: none;
+    box-shadow: none;
+}
+button:hover{
+    background-image: none;
+    background-color: #303641;
+}
+button:active{
+    background-image: none;
+    background-color: #3a424f;
+}
+
+.model-dropdown{
+    min-height: 36px;
+    background-color: #242831;
+    color: #e6e6e6;
+    border-radius: 8px;
+}
+.model-dropdown > button{
+    background-image: none;
+    background-color: #242831;
+    color: #e6e6e6;
+    border-radius: 8px;
+    border:none;
+    box-shadow: none;
+}
+.model-dropdown > button:hover{
+    background-image: none;
+    background-color: #303641;
+}
+
+.prompt-entry{
+    min-height: 42px;
+    background-color: #242831;
+    color: #e6e6e6;
+    border-radius: 10px;
+    border: none;
+    box-shadow: none;
+}
+.prompt-entry:focus{
+    background-color: #2a2f39;
+}
+.generate-button{
+    min-height: 42px;
+    min-width: 100px;
+    border-radius: 10px;
+}
+.new-chat-button{
+    min-height: 42px;
+    border-radius: 10px;
+}
+.model-dropdown popover.menu {
+    background-color: #181b21;
+    color: #e6e6e6;
+}
+
+.model-dropdown popover.menu contents {
+    background-color: #181b21;
+}
+
+.model-dropdown popover.menu listview {
+    background-color: #181b21;
+}
+
+.model-dropdown popover.menu listview row {
+    background-color: #181b21;
+    color: #e6e6e6;
+}
+
+.model-dropdown popover.menu listview row:hover {
+    background-color: #303641;
+}
+
+.model-dropdown popover.menu listview row:selected {
+    background-color: #3a424f;
+    color: #ffffff;
+}
+
+.message{
+    margin-top: 6px;
+    margin-bottom: 6px;
+    padding: 10px 14px;
+    border-radius: 12px;
+}
+.user-message{
+    background-color: #242831;
+}
+.assistant-message{
+    background-color: #181b21;
+}
+.message-role{
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+.user-message .message-role{
+    color: #8fa8ff;
+}
+.assistant-message .message-role{
+    color: #a8a8a8;
+}
+.message-text{
+    background-color: transparent;
+    color: #e6e6e6;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+}

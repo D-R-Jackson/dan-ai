@@ -1,0 +1,12 @@
+# Build output
+local-ai
+
+# Editor files
+*.swp
+*.swo
+
+# IDE settings
+.vscode/
+
+# OS junk
+.DS_Store
